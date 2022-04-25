@@ -6,14 +6,13 @@ let s= document.getElementById('second');
 
 function tik() {
     let d= new Date();
-    let hrs= d.getDate();
+    let hrs= d.getHours();
     let min= d.getMinutes();
     let sec= d.getSeconds();
 
     let hrotation= 30*hrs + min/2 ;
     let mrotation= 6*min ;
     let srotation= 6*sec ;
-    let deg= Math.PI/180 ;
 
     // h.rotate( (30*hrs + min/2)deg );
     // h.style.transform= rotate()
