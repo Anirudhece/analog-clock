@@ -26,6 +26,8 @@
     position: relative;
     left: 48.5%;
     top: 25%;
+    transform-origin: bottom;
+    
 }
 
 #minute{
@@ -35,6 +37,7 @@
     position: relative;
     left: 49%;
     top: -7%;
+    transform-origin: bottom;
 }
 #second{
     background-color: rgb(189, 189, 35);
@@ -43,5 +46,6 @@
     position: relative;
     left: 49%;
     top: -40%;
+    transform-origin: bottom;
 }
 
